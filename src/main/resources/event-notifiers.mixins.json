@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.petroff.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PlayerManagerMixin",
+		"CommandManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
